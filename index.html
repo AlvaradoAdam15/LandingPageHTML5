@@ -5,11 +5,30 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
     <title>Landing Page</title>
     <style>
 
         body {
             padding-top: 20px;
+            font-size: 16px;
+            font-family: "Open Sans", "sans-serif";
+            background-image: url("img/background.jpg");
+        }
+
+        h1 {
+            font-weight: 400;
+            font-size: 40px;
+            font-family: "Poiret One", "sans-serif";
+        }
+
+        .margin-vertival {
+            margin: 30px 0;
+        }
+
+        .panel {
+            background-color: floralwhite;
         }
 
     </style>
@@ -17,8 +36,8 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-md-offset-3 ">
-                <h1>Lorem ipsum dolor sit.</h1>
+            <div class="col-md-6 col-md-offset-3 panel">
+                <h1 class="margin-vertival">Lorem ipsum dolor sit.</h1>
 
                 <p>Lorem ipsum dolor sit amet,consectetur adipisicing elit.Accusamus accusantium assumenda corporis debitis
                     ducimus expedita facere,fugit incidunt iusto laudantium nam necessitatibus numquam reiciendis repellat
@@ -28,15 +47,15 @@
                     ducimus expedita facere,fugit incidunt iusto laudantium nam necessitatibus numquam reiciendis repellat
                     voluptas voluptatem voluptatibus. Cum, laboriosam!</p>
 
-                <p>Interesated?</p>
+                <p class="text-center">Interesated?</p>
 
                 <form action="#" method="post">
                     <p class="input-group">
-                        <span class="input-group-addon">@</span>
+                        <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
                         <input type="email" class="form-control" name="email" placeholder="Your email here">
                     </p>
-                    <p>No et precupis no et bombardejarem amb Spam</p>
-                    <p>
+                    <p class="text-center">No et precupis no et bombardejarem amb Spam</p>
+                    <p class="text-center">
                         <input type="submit" value="Subscribe" class="btn btn-success btn-lg">
                     </p>
                 </form>
